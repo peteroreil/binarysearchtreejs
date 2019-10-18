@@ -1,0 +1,30 @@
+{
+  "name": "node-binarysearchtree",
+  "version": "0.0.1",
+  "description": "Binary Search Tree Js Implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.spec.js",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
+  },
+  "keywords": [
+    "Algorithm",
+    "Binary",
+    "Search",
+    "Tree",
+    "Sort",
+    "Find",
+    "Delete",
+    "Insert"
+  ],
+  "author": "Peter O'Reilly",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.1"
+  }
+}
