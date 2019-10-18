@@ -44,7 +44,6 @@ describe('BST Node', function () {
         expect(children.left).to.deep.equal(null);
         expect(children.right).to.equal(child);
     });
-
 });
 
 describe('BST NodeComparer', function () {
